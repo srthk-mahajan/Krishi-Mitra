@@ -60,20 +60,20 @@ const Footer = () => {
             <h3 className="text-gray-800 font-medium mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-krishi-500 text-sm">Crop Library</a>
+                <a href="https://www.weap21.org/webhelp/Mabia_Crop_Library.htm" className="text-gray-600 hover:text-krishi-500 text-sm">Crop Library</a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-krishi-500 text-sm">Soil Health Guide</a>
+                <a href="https://soilhealth.dac.gov.in/home" className="text-gray-600 hover:text-krishi-500 text-sm">Soil Health Guide</a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-krishi-500 text-sm">Fertilizer Database</a>
+                <a href="https://www.faidelhi.org/statistics/statistical-database" className="text-gray-600 hover:text-krishi-500 text-sm">Fertilizer Database</a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-krishi-500 text-sm">Seasonal Farming Tips</a>
+                <a href="https://www.agriplast.co.in/blogs/mastering-seasonal-crop-planning-in-india-a-comprehensive-guide-to-boost-yield-and-sustainability" className="text-gray-600 hover:text-krishi-500 text-sm">Seasonal Farming Tips</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-gray-600 hover:text-krishi-500 text-sm">FAQs</a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
