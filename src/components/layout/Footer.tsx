@@ -49,9 +49,9 @@ const Footer = () => {
               <li>
                 <Link to="/login" className="text-gray-600 hover:text-krishi-500 text-sm">Login</Link>
               </li>
-              <li>
+{/*               <li>
                 <Link to="/signup" className="text-gray-600 hover:text-krishi-500 text-sm">Signup</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
