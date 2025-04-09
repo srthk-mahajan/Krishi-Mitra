@@ -83,16 +83,16 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-krishi-500 flex-shrink-0 mt-1" />
-                <span className="text-gray-600 text-sm">Agricultural Technology Institute, Sector 123, New Delhi, India</span>
+                <span className="text-gray-600 text-sm">Bennett University, Greater Noida, Uttar Pradesh, India</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-krishi-500 flex-shrink-0" />
-                <a href="mailto:info@krishimitra.org" className="text-gray-600 hover:text-krishi-500 text-sm">info@krishimitra.org</a>
+                <a href="mailto:info@krishimitra.org" className="text-gray-600 hover:text-krishi-500 text-sm">saarthakmahajan4@gmail.com</a>
               </li>
-              <li className="flex items-center space-x-3">
+              {/* <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-krishi-500 flex-shrink-0" />
-                <a href="tel:+918001234567" className="text-gray-600 hover:text-krishi-500 text-sm">+91 800 123 4567</a>
-              </li>
+                <a href="tel:+918001234567" className="text-gray-600 hover:text-krishi-500 text-sm">+91 967</a>
+              </li> */}
             </ul>
           </div>
         </div>
