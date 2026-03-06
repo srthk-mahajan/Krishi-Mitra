@@ -12,23 +12,8 @@ const About = () => {
     {
       name: "Saarthak Mahajan",
       role: "Fullstack Engineer",
-      bio: "I’m a Computer Science and Engineering student at Bennett University with a strong passion for cybersecurity, particularly in Web Security and DevSecOps. I’m deeply interested in understanding how systems break, how vulnerabilities emerge, and how to build secure, resilient applications from the ground up.Alongside security, I actively develop web-based projects using the MERN stack and Next.js, combining performance, scalability, and security best practices into real-world applications. I also enjoy working with AI-powered systems and integrating them into applications, exploring how intelligent systems can enhance automation, decision-making, and security workflows.This combination gives me a unique perspective at the intersection of development, security, and emerging AI-driven technologies.",
-    // },
-    // {
-    //   name: "Ansh Kaushik",
-    //   role: "Fullstack Engineer",
-    //   bio: "Expert in building scalable, user-friendly interfaces that work flawlessly on web and mobile.",
-    // },
-    // {
-    //   name: "Nitin Kumar",
-    //   role: "ML Engineer",
-    //   bio: "Designs and trains models that drive intelligent, location-specific agricultural recommendations.",
-    // },
-    // {
-    //   name: "Hrehaan Ahuja",
-    //   role: "ML Engineer",
-    //   bio: "Specializes in data pipelines and soil-crop-fertilizer correlation for sustainable farming insights.",
-    // },
+      bio: "I’m a Computer Science and Engineering student at Bennett University with a strong passion for cybersecurity, particularly in Web Security and DevSecOps. I’m deeply interested in understanding how systems break, how vulnerabilities emerge, and how to build secure, resilient applications from the ground up. Alongside security, I actively develop web-based projects using the MERN stack and Next.js, combining performance, scalability, and security best practices into real-world applications. I also enjoy working with AI-powered systems and integrating them into applications, exploring how intelligent systems can enhance automation, decision-making, and security workflows. This combination gives me a unique perspective at the intersection of development, security, and emerging AI-driven technologies."
+    }
   ];
 
   const features = [
@@ -76,20 +61,32 @@ const About = () => {
           </div>
         </div>
 
-        {/* Team Section */}
+        {/* Spotlight Section */}
         <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-green-700 mb-12">
-              Our Team
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="max-w-6xl mx-auto text-center space-y-8">
+            <div className="space-y-4">
+              <p className="text-sm font-semibold tracking-wide uppercase text-green-600">
+                Builder Spotlight
+              </p>
+              <h2 className="text-3xl font-bold text-green-800">
+                Meet the person behind Krishi Mitra
+              </h2>
+              <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+                A hands-on fullstack engineer who blends security-first thinking with
+                practical product building—from resilient MERN apps to AI-powered tools
+                that help farmers make confident decisions.
+              </p>
+            </div>
+
+            <div className="flex justify-center">
               {teamMembers.map((member, index) => (
-                <TeamMember
-                  key={index}
-                  name={member.name}
-                  role={member.role}
-                  bio={member.bio}
-                />
+                <div key={index} className="max-w-lg w-full">
+                  <TeamMember
+                    name={member.name}
+                    role={member.role}
+                    bio={member.bio}
+                  />
+                </div>
               ))}
             </div>
           </div>
