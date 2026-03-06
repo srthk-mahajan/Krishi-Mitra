@@ -67,7 +67,7 @@ const About = () => {
               <p className="text-sm font-semibold tracking-wide uppercase text-green-600">
                 Builder Spotlight
               </p>
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-green-900 leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-green-900 leading-tight">
                 {teamMembers[0].name}
               </h2>
               <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 leading-relaxed max-w-none">
