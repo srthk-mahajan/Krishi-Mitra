@@ -56,38 +56,58 @@ const About = () => {
               About Me
             </h1>
             <p className="text-xl sm:text-2xl text-brown-600 max-w-3xl mx-auto">
-              Driven by technology. Rooted in agriculture. Dedicated to sustainability.
+              Driven by technology. Dedicated to sustainability.
             </p>
           </div>
         </div>
 
         {/* Spotlight Section */}
-        <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-6xl mx-auto text-center space-y-8">
-            <div className="space-y-4">
-              <p className="text-sm font-semibold tracking-wide uppercase text-green-600">
-                Builder Spotlight
-              </p>
-              <h2 className="text-3xl font-bold text-green-800">
-                Meet the person behind Krishi Mitra
-              </h2>
-              <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                A hands-on fullstack engineer who blends security-first thinking with
-                practical product building—from resilient MERN apps to AI-powered tools
-                that help farmers make confident decisions.
-              </p>
-            </div>
-
-            <div className="flex justify-center">
-              {teamMembers.map((member, index) => (
-                <div key={index} className="max-w-lg w-full">
-                  <TeamMember
-                    name={member.name}
-                    role={member.role}
-                    bio={member.bio}
-                  />
+        <div className="section-spacing bg-white">
+          <div className="page-container">
+            <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr] items-center">
+              <div className="space-y-5">
+                <p className="text-sm font-semibold tracking-wide uppercase text-green-600">Builder Spotlight</p>
+                {/* <h2 className="text-3xl sm:text-4xl font-bold text-green-800 leading-tight text-balance">
+                  Meet the person behind Krishi Mitra
+                </h2>
+                <p className="text-lg text-gray-700 leading-relaxed text-balance">
+                  A hands-on fullstack engineer who blends security-first thinking with practical product building—from
+                  resilient MERN apps to AI-powered tools that help farmers make confident decisions on the field.
+                </p> */}
+                <div className="flex flex-wrap gap-3">
+                  <span className="px-4 py-2 rounded-full bg-green-50 text-green-800 text-sm font-medium border border-green-100">Web Security & DevSecOps</span>
+                  <span className="px-4 py-2 rounded-full bg-green-50 text-green-800 text-sm font-medium border border-green-100">MERN & Next.js</span>
+                  <span className="px-4 py-2 rounded-full bg-green-50 text-green-800 text-sm font-medium border border-green-100">AI Integrations</span>
                 </div>
-              ))}
+              </div>
+
+              <div className="glass rounded-2xl p-8 shadow-lg border border-green-100/70">
+                {teamMembers.map((member, index) => (
+                  <div key={index} className="space-y-6">
+                    <div className="flex items-center gap-4">
+                      <div className="h-14 w-14 rounded-full bg-green-600 text-white flex items-center justify-center text-xl font-semibold shadow-md">
+                        {member.name.charAt(0)}
+                      </div>
+                      <div className="text-left">
+                        <p className="text-2xl font-semibold text-green-900">{member.name}</p>
+                        <p className="text-sm font-medium text-green-700">{member.role}</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">{member.bio}</p>
+
+                    <div className="grid sm:grid-cols-2 gap-4">
+                      <div className="rounded-xl border border-green-100 bg-green-50 px-4 py-3 text-left">
+                        <p className="text-xs font-semibold uppercase tracking-wide text-green-700">Focus</p>
+                        <p className="text-sm text-gray-800">Secure fullstack systems & resilient infra</p>
+                      </div>
+                      <div className="rounded-xl border border-green-100 bg-green-50 px-4 py-3 text-left">
+                        <p className="text-xs font-semibold uppercase tracking-wide text-green-700">Toolkit</p>
+                        <p className="text-sm text-gray-800">TypeScript • Node • React • Next.js • MongoDB</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
