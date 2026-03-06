@@ -12,23 +12,23 @@ const About = () => {
     {
       name: "Saarthak Mahajan",
       role: "Fullstack Engineer",
-      bio: "Focuses on creating robust frontend-backend systems ensuring a seamless experience for all users.",
-    },
-    {
-      name: "Ansh Kaushik",
-      role: "Fullstack Engineer",
-      bio: "Expert in building scalable, user-friendly interfaces that work flawlessly on web and mobile.",
-    },
-    {
-      name: "Nitin Kumar",
-      role: "ML Engineer",
-      bio: "Designs and trains models that drive intelligent, location-specific agricultural recommendations.",
-    },
-    {
-      name: "Hrehaan Ahuja",
-      role: "ML Engineer",
-      bio: "Specializes in data pipelines and soil-crop-fertilizer correlation for sustainable farming insights.",
-    },
+      bio: "I’m a Computer Science and Engineering student at Bennett University with a strong passion for cybersecurity, particularly in Web Security and DevSecOps. I’m deeply interested in understanding how systems break, how vulnerabilities emerge, and how to build secure, resilient applications from the ground up.Alongside security, I actively develop web-based projects using the MERN stack and Next.js, combining performance, scalability, and security best practices into real-world applications. I also enjoy working with AI-powered systems and integrating them into applications, exploring how intelligent systems can enhance automation, decision-making, and security workflows.This combination gives me a unique perspective at the intersection of development, security, and emerging AI-driven technologies.",
+    // },
+    // {
+    //   name: "Ansh Kaushik",
+    //   role: "Fullstack Engineer",
+    //   bio: "Expert in building scalable, user-friendly interfaces that work flawlessly on web and mobile.",
+    // },
+    // {
+    //   name: "Nitin Kumar",
+    //   role: "ML Engineer",
+    //   bio: "Designs and trains models that drive intelligent, location-specific agricultural recommendations.",
+    // },
+    // {
+    //   name: "Hrehaan Ahuja",
+    //   role: "ML Engineer",
+    //   bio: "Specializes in data pipelines and soil-crop-fertilizer correlation for sustainable farming insights.",
+    // },
   ];
 
   const features = [
@@ -68,7 +68,7 @@ const About = () => {
           </div>
           <div className="relative max-w-7xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-green-800 mb-4">
-              Meet the Team Behind Krishi Mitra
+              About Me
             </h1>
             <p className="text-xl sm:text-2xl text-brown-600 max-w-3xl mx-auto">
               Driven by technology. Rooted in agriculture. Dedicated to sustainability.
