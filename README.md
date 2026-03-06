@@ -17,7 +17,7 @@
 
 - **Frontend**: React + TypeScript  
 - **Styling**: Tailwind CSS  
-- **AI Integration**: Gemini API  
+- **AI Integration**: Gemini API for geolocation and for evaluation based on soil information-- an ml model was created and integrated
 - **Data Flow**: Soil form → Gemini → AI Response → Displayed on Results Page
 
 ---
